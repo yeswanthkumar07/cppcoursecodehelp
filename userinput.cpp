@@ -3,6 +3,14 @@
 using namespace std; // so you don’t need to write std::cout every time
 
 int main() {
-    cout << "hii" << endl;
-    return 0;
+
+    int marks ;
+    cout << "enter your marks:" << endl;
+    
+    // taking user input
+
+    cin >> marks;
+    cout << "good" << endl;
+    return 0 ;
+   
 }
