@@ -2,7 +2,13 @@
 using namespace std;
 
 
-class student {        //  class creation :
+class student {       //  class creation :
+
+    public :
+        int age;
+        int weight;
+        int height
+        string name;
 
 
 
