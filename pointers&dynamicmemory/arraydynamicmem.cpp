@@ -22,7 +22,7 @@ int main() {
 
     // after using the dynamic memory we should delete it, but c++ have no automatic mechanism as java so we delete keyword
 
-    delete []ptr ;
+    delete []ptr ; // dleting dynamically allocated memory
 
     
     return 0 ;

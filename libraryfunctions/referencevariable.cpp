@@ -7,6 +7,7 @@ int main () {
 
     int a =10 ;
 
-    int &myrefvariable  = a;
-     cout << myrefvariable << endl ;
+    int &myrefvariable  = a; // & reference variable 
+    cout << myrefvariable << endl ;
+    cout << myrefvariable + 1 ;
 }

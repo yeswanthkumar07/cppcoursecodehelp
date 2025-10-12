@@ -12,12 +12,12 @@ class student {       //  class creation :
 
 
         void studying(){
-            cout << "i am studying" << endl ;
+            cout << name << "is studying" << endl ;
         }
 
         void running(){
 
-            cout << "i am running" << endl ;
+            cout << name <<  "is running" << endl ;
         }
 
 } ;
@@ -27,7 +27,7 @@ int main(){
     s1.age = 20 ;
     s1.weight = 77;
     s1.height = 5.10 ;
-    s1.name = "yashwanth rambha" ;  // object creation :
+    s1.name = "yashwanth rambha " ;  // object creation :
 
     cout << "name of student : " << s1.name << endl ;
     cout << "age of student : " << s1.age << endl ;
