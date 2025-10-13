@@ -6,6 +6,7 @@ public:
     int age;
     void display() {
         cout << "Age: " << age << endl;
+        cout << "hello" << endl ;
     }
 };
 
